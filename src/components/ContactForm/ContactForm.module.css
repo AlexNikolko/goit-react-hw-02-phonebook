@@ -1,0 +1,43 @@
+.form {
+	margin-bottom: 50px;
+}
+
+.label {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 20px;
+}
+
+.title {
+	font-weight: 600;
+	margin-bottom: 5px;
+}
+
+.input {
+	width: 400px;
+	height: 40px;
+	padding: 0 10px 0 10px;
+	outline: none;
+	font-size: 14px;
+}
+
+.button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	width: 200px;
+	height: 40px;
+
+	background-color: rgb(93, 93, 180);
+
+	font-family: inherit;
+	border: none;
+
+	cursor: pointer;	
+}
+
+.button:hover,
+.button:focus {
+	background-color: rgb(169, 154, 236);
+}

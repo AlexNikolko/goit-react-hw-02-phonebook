@@ -1,0 +1,31 @@
+.wrapper {
+	display: flex;
+	align-items: center;
+}
+
+.number {
+	font-weight: 700;
+	margin-right: 5px;
+	margin-left: 30px;
+}
+
+.button {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+
+	width: 60px;
+	height: 30px;
+	padding: 10px;
+
+	border: none;
+	background-color: #c94848;	
+
+	cursor: pointer;
+	
+}
+
+.button:hover,
+.button:focus {
+	background-color: rgb(235, 161, 161);
+}
